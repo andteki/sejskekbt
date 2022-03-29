@@ -1,0 +1,62 @@
+{
+  "dolgozok": [
+    {
+      "id": 1,
+      "nev": "Para Béla",
+      "telepules": "Szolnok",
+      "fizetes": 2300000
+    },
+    {
+      "id": 2,
+      "nev": "Erős István",
+      "telepules": "Szeged",
+      "fizetes": 2400000
+    },
+    {
+      "nev": "Pala Károly",
+      "telepules": "Miskolc",
+      "fizetes": 2150000,
+      "id": 4
+    },
+    {
+      "nev": "Csempe Elemér",
+      "telepules": "Szolnok",
+      "fizetes": 2150000,
+      "id": 5
+    },
+    {
+      "nev": "Perec Ferenc",
+      "telepules": "Szeged",
+      "fizetes": "2850000",
+      "id": 6
+    },
+    {
+      "nev": "aaa",
+      "telepules": "bbb",
+      "fizetes": "333",
+      "id": 7
+    },
+    {
+      "nev": "bbb",
+      "telepules": "dddd",
+      "fizetes": "334434",
+      "id": 8
+    },
+    {
+      "nev": "Pál Elek",
+      "telepules": "Hatvan",
+      "fizetes": "800000",
+      "id": 9
+    }
+  ],
+  "beosztasok": [
+    {
+      "id": 1,
+      "nev": "tesztelő"
+    },
+    {
+      "id": 2,
+      "nev": "fejlesztő"
+    }
+  ]
+}
