@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>doc</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -38,6 +39,56 @@
 
         <p>teszt</p>
     </div>
+
+
+<!-- Button trigger modal -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Dolgozó szerkesztése</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+            <div class="form">
+                <div>
+                    <label for="eid" class="form-label">Azonosító</label>
+                    <input type="text" id="eid" class="form-control">
+                </div>
+                <div>
+                    <label for="enev" class="form-label">Név</label>
+                    <input type="text" id="enev" class="form-control">
+                </div>
+                <div>
+                    <label for="etelepules" class="form-label">Település</label>
+                    <input type="text" id="etelepules" class="form-control">
+                </div>
+                <div>
+                    <label for="efizetes" class="form-label">Fizetés</label>
+                    <input type="text" id="efizetes" class="form-control">
+                </div>
+    
+            </div>
+                
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezár</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+          id="saveButton">Ment</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+
     <script src="bootstrap.js"></script>
     <script src="app.js"></script>
 </body>

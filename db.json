@@ -47,6 +47,12 @@
       "telepules": "Hatvan",
       "fizetes": "800000",
       "id": 9
+    },
+    {
+      "nev": "sss",
+      "telepules": "fgfg",
+      "fizetes": "4545",
+      "id": 10
     }
   ],
   "beosztasok": [
